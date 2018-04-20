@@ -3,28 +3,6 @@
 \*------------------------------------*/
 
 /*------------------------------------*\
-  #FONTS
-\*------------------------------------*/
-
-@font-face {
-    font-family: "Clear Sans Web";
-    font-weight: 200;
-    src: url("../fonts/ClearSans-Light-webfont.woff") format("woff");
-}
-
-@font-face {
-    font-family: "Clear Sans Web";
-    font-weight: 400;
-    src: url("../fonts/ClearSans-Regular-webfont.woff") format("woff");
-}
-
-@font-face {
-    font-family: "Clear Sans Web";
-    font-weight: 600;
-    src: url("../ClearSans-Medium-webfont.woff") format("woff");
-}
-
-/*------------------------------------*\
   #GENERIC
 \*------------------------------------*/
 
@@ -35,14 +13,9 @@
 */
 
 html {
-    font-size: 18px;
-    line-height: 32px;
-    font-family: "Clear Sans Web", Helvetica, arial, sans-serif;
-    font-weight: 200;
-    color: #fff;
-    background-color: #061649;
-    background: linear-gradient(to bottom right, #0A257D, #061649);
-    background-attachment: fixed;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Helvetica, arial, sans-serif;
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
